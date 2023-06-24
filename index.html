@@ -4,12 +4,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- inline_stylesheet section -->
+    <style>
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.u{
+    background-color: #1F2937;
+    padding: 0.5% 12% 5% 12%;
+    color: white;
+  }
+
+.u1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.lg {
+    font-weight: bold;
+}
+
+.ab {
+    display: flex;
+    width: 45%;
+    
+}
+.ab a {
+    text-decoration: none;
+    padding-right: 4%;
+    color: white;
+} 
+
+.b2 {
+    border: 1px solid  gray;
+    margin-left: 5%;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+
+.bt {
+    background-color: #3882F6;
+    padding: 0.5% 3% 0.5% 3%;
+    border: 1px solid #3882F6;
+    border-radius: 8%;
+    margin-top: 1%;
+    color: white;
+}
+.h {
+    color: black;
+    text-align: center;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex: 1;
+    gap: 4%;
+    padding: 2% 30% 5% 30%;
+    margin-bottom: 7%;    
+}
+h2 {
+    margin-top: 2%;
+}
+
+.c1 {
+    color: black;
+}
+
+.d1 {
+    border: 2px solid #3882F6;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    padding: 10%;
+}
+
+.cc {
+    background-color: gray;
+    padding: 5% 29% 5% 29%;
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+}
+
+.e {
+    display: flex;
+    background-color: #3882F6;
+    padding: 2% 6%;
+    margin: 5% 20%;
+    justify-content: space-between;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.e div p {
+    font-size: 0.8em;
+}
+
+.e button {
+    background-color:  #3882F6;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    padding: 0.2% 2% 0.2% 2%;
+    height: 20%;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    height: 2em;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+    </style>
 </head>
 <body>
-    <div class="a"></div>
-    <div class="b"></div>
-    <div class="c"></div>
-    <div class="d"></div>
-    <div class="e"></div>
+    <div class="u">
+        <div class="u1">
+    <div class="lg">Header loge</div>
+    <div class="ab">
+    <a href="">header link 1</a>
+    <a href="">header link 2</a>
+    <a href="">header link 3</a>    
+</div></div>
+<div class="b">
+    <div class="b1">
+        <h1>This Website is awesome</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Iusto, nobis ipsa! Vero, enim blanditiis voluptatibus nam sed deserunt.
+            Accusamus rem voluptate nulla incidunt hic officia maiores quos beatae eveniet sed.
+        </p>
+        <button class="bt">Sign up</button>
+    </div>
+    <div class="b2">
+    <img src="BLACK_BEAUTY.png" alt="loading">
+    </div>
+</div></div>
+<h2 class="h">Some random information</h2>
+<div class="c">
+    <div class="c1">
+        <div class="d1"></div>
+        <p>This is some subtext under and illustration or image</p>
+    </div>
+    <div class="c1">
+        <div class="d1"></div>
+        <p>This is some subtext under and illustration or image</p>
+    </div>
+    <div class="c1">
+        <div class="d1"></div>
+        <p>This is some subtext under and illustration or image</p>
+    </div>
+    <div class="c1">
+        <div class="d1"></div>
+        <p>This is some subtext under and illustration or image</p>
+    </div>
+    
+</div>
+    <div class="cc"><blockquote>
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling
+        up space, or maybe people will actually read it. Who knows? All I know is that it looks
+        nice.
+        <cite>-Thor, God of Thunder</cite>
+    </blockquote></div>
+</div>
+<div class="e">
+    <div class="e1">
+        <h3>Call to action! It's time!</h3>
+        <p>Sign up for our product by clicking that button right over there!</p>
+    </div>
+    <button>Sign up</button>
+</div>
+<footer>
+    <p>Copyright &commat; The Odin Project 2023</p>
+</footer>
 </body>
 </html>
